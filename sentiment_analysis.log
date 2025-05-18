@@ -1,0 +1,70 @@
+2025-05-17 18:26:35,899 - __main__ - INFO - Starting sentiment analysis at 2025-05-17 18:26:35
+2025-05-17 18:26:35,901 - __main__ - INFO - Using device: cpu
+2025-05-17 18:26:35,901 - __main__ - INFO - Loading data in chunks from preprocessed_posts.csv with chunk_size=100000
+2025-05-17 18:26:36,124 - __main__ - INFO - Loaded first chunk with 10000 rows
+2025-05-17 18:26:36,125 - __main__ - INFO - Total number of columns: 129
+2025-05-17 18:26:36,125 - __main__ - INFO - Sample of posts data loaded with 10000 rows
+2025-05-17 18:27:39,448 - __main__ - INFO - Starting sentiment analysis at 2025-05-17 18:27:39
+2025-05-17 18:27:39,449 - __main__ - INFO - Using device: cpu
+2025-05-17 18:27:39,450 - __main__ - INFO - Loading data in chunks from preprocessed_posts.csv with chunk_size=100000
+2025-05-17 18:27:39,658 - __main__ - INFO - Loaded first chunk with 10000 rows
+2025-05-17 18:27:39,658 - __main__ - INFO - Total number of columns: 129
+2025-05-17 18:27:39,662 - __main__ - INFO - Sample of posts data loaded with 10000 rows
+2025-05-17 18:27:43,921 - __main__ - INFO - Starting parallel sentiment analysis with 4 processes
+2025-05-17 18:27:43,921 - __main__ - INFO - Splitting preprocessed_posts.csv into 4 parts
+2025-05-17 18:30:50,876 - __main__ - INFO - Starting sentiment analysis at 2025-05-17 18:30:50
+2025-05-17 18:30:50,877 - __main__ - INFO - Using device: cpu
+2025-05-17 18:30:50,878 - __main__ - INFO - Loading data in chunks from preprocessed_posts.csv with chunk_size=100000
+2025-05-17 18:30:51,090 - __main__ - INFO - Loaded first chunk with 10000 rows
+2025-05-17 18:30:51,091 - __main__ - INFO - Total number of columns: 129
+2025-05-17 18:30:51,095 - __main__ - INFO - Sample of posts data loaded with 10000 rows
+2025-05-17 18:31:19,123 - __main__ - INFO - Starting parallel sentiment analysis with 4 processes
+2025-05-17 18:31:19,123 - __main__ - INFO - Splitting preprocessed_posts.csv into 4 parts using latin1 encoding
+2025-05-17 18:31:19,124 - __main__ - INFO - Attempting to read file with latin1 encoding
+2025-05-17 18:31:19,149 - __main__ - INFO - Successfully read file with latin1 encoding, found 38880 lines
+2025-05-17 18:31:19,213 - __main__ - INFO - File split into 4 parts using latin1 encoding
+2025-05-17 18:31:19,278 - __main__ - ERROR - Error in parallel processing: A process in the process pool was terminated abruptly while the future was running or pending.
+2025-05-17 18:31:19,278 - __main__ - ERROR - Error in parallel processing: A process in the process pool was terminated abruptly while the future was running or pending.
+2025-05-17 18:31:19,279 - __main__ - ERROR - Error in parallel processing: A process in the process pool was terminated abruptly while the future was running or pending.
+2025-05-17 18:31:19,279 - __main__ - ERROR - Error in parallel processing: A process in the process pool was terminated abruptly while the future was running or pending.
+2025-05-17 18:31:19,280 - __main__ - INFO - Merging 0 result files into sentiment_results/merged_roberta_results_preprocessed_posts.csv
+2025-05-17 18:31:19,280 - __main__ - ERROR - Failed with latin1 encoding: list index out of range
+2025-05-17 18:31:19,281 - __main__ - INFO - Trying fallback method with single process...
+2025-05-17 18:31:19,281 - __main__ - ERROR - Fallback also failed: analyze_large_dataset() got an unexpected keyword argument 'encoding'
+2025-05-17 18:31:19,281 - __main__ - ERROR - Please check your file encoding and structure
+2025-05-17 18:31:19,282 - __main__ - INFO - Total execution time: 28.41s
+2025-05-17 18:31:19,282 - __main__ - INFO - Sentiment analysis pipeline completed
+2025-05-17 18:33:36,870 - __main__ - INFO - Starting sentiment analysis at 2025-05-17 18:33:36
+2025-05-17 18:33:36,871 - __main__ - INFO - Using device: cpu
+2025-05-17 18:33:36,872 - __main__ - INFO - Loading data in chunks from preprocessed_posts.csv with chunk_size=100000
+2025-05-17 18:33:37,078 - __main__ - INFO - Loaded first chunk with 10000 rows
+2025-05-17 18:33:37,078 - __main__ - INFO - Total number of columns: 129
+2025-05-17 18:33:37,082 - __main__ - INFO - Sample of posts data loaded with 10000 rows
+2025-05-17 18:33:37,084 - __main__ - INFO - Starting sentiment analysis at 2025-05-17 18:33:37
+2025-05-17 18:33:37,085 - __main__ - INFO - Using device: cpu
+2025-05-17 18:33:37,085 - __main__ - INFO - Loading data in chunks from preprocessed_posts.csv with chunk_size=100000
+2025-05-17 18:33:37,289 - __main__ - INFO - Loaded first chunk with 10000 rows
+2025-05-17 18:33:37,289 - __main__ - INFO - Total number of columns: 129
+2025-05-17 18:33:37,293 - __main__ - INFO - Sample of posts data loaded with 10000 rows
+2025-05-17 18:33:37,296 - __main__ - INFO - Using simplified single-process implementation
+2025-05-17 18:33:37,296 - __main__ - INFO - Loading RoBERTa model...
+2025-05-17 18:33:41,606 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-17 18:33:50,690 - __main__ - INFO - Successfully opened file with latin1 encoding
+2025-05-17 18:33:50,859 - __main__ - INFO - Processing chunk 1 (10000 rows)
+2025-05-17 18:33:51,792 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-17 18:46:11,397 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 18:46:11,398 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 18:46:11,768 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 18:46:11,769 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,294 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,296 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,297 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,297 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,298 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,299 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,786 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,787 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,787 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,788 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,789 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-17 19:09:02,789 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
