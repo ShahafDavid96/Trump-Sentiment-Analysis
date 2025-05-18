@@ -42,18 +42,13 @@ The primary analysis notebook containing the complete pipeline for sentiment ana
 - Temporal trend visualization and analysis
 - Lexical pattern analysis with word clouds and frequency distributions
 - Visualization of results and statistical analysis
-
-This notebook implements the core methodologies described in our paper and generates the figures and statistics presented in the results.
-
 ## 2. downloader.ipynb
 
 A data preparation utility notebook that:
 
 - Converts JSONL files (from Reddit API data collection) to structured dataframes
 - Merges multiple JSONL files from different political subreddits
-- Performs initial data cleaning and formatting
 - Exports a single merged CSV file (`merged_posts.csv` and `merged_comments.csv`)
-- Handles large file processing with memory optimization
 
 Run this notebook first to prepare the dataset for the main analysis. The resulting merged CSV files serve as input for the `sentiment.ipynb` notebook.
 
