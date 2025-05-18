@@ -26,3 +26,34 @@ This repository contains code and analysis for our study examining sentiment tow
 
 - Lexical analysis reveals distinct discourse patterns across sentiment categories: positive content mirrors Trump's rhetorical style, neutral content focuses on institutional aspects, and negative content employs critical framing.
 
+# Repository Structure
+
+This repository contains two main Jupyter notebooks:
+
+## 1. sentiment.ipynb
+
+The primary analysis notebook containing the complete pipeline for sentiment analysis of Trump-related content across political subreddits. This notebook includes:
+
+- Data loading and exploration
+- Text preprocessing and cleaning
+- Trump-related content identification using multi-method approach
+- RoBERTa sentiment analysis implementation
+- Cross-subreddit comparative analysis
+- Temporal trend visualization and analysis
+- Lexical pattern analysis with word clouds and frequency distributions
+- Visualization of results and statistical analysis
+
+This notebook implements the core methodologies described in our paper and generates the figures and statistics presented in the results.
+
+## 2. downloader.ipynb
+
+A data preparation utility notebook that:
+
+- Converts JSONL files (from Reddit API data collection) to structured dataframes
+- Merges multiple JSONL files from different political subreddits
+- Performs initial data cleaning and formatting
+- Exports a single merged CSV file (`merged_posts.csv` and `merged_comments.csv`)
+- Handles large file processing with memory optimization
+
+Run this notebook first to prepare the dataset for the main analysis. The resulting merged CSV files serve as input for the `sentiment.ipynb` notebook.
+
