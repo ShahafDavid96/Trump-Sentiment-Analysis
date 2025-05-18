@@ -1,4 +1,4 @@
-# Trump Sentiment Analysis Across Political Subreddits
+# Sentiment Analysis of Trump-Related Discourse Across Political Subreddits
 
 ## Project Overview
 
